@@ -11,7 +11,9 @@ export class AboutComponent implements OnInit {
   constructor(private route: ActivatedRoute, private router: Router) {
     this.route.params.subscribe(res => console.log(res.id));
   }
-
+  sendMeHome() {
+    this.router.navigate(['']);
+  }
 
   ngOnInit() {
   }
