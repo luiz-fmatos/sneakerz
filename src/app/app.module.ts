@@ -18,7 +18,7 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [ ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
