@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.container-brand{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  app-brand-card {
+    margin-top: 20px;
+  }
+}
+  .title-brand {
+    font-size: 22px;
+    padding-left: 40px;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
