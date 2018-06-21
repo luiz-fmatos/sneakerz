@@ -2,7 +2,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {AppComponent} from './app.component';
-import {HomepageComponent} from './homepage/homepage.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsContentComponent } from './products-content/products-content.component';
@@ -20,8 +19,8 @@ import { ProductsContentComponent } from './products-content/products-content.co
   exports: [
     HomeComponent,
     ProductCardComponent,
-    ProductsContentComponent
-  ]
+    ProductsContentComponent,
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

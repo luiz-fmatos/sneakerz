@@ -14,7 +14,7 @@ export class ProductsContentComponent implements OnInit {
   constructor(private sneakerService: SneakerService) { }
 
   ngOnInit() {
-    this.sneakeService.getSneakers().subscribe(response => { this.sneakers = response.sneakers; });
+    this.sneakerService.getSneakers().subscribe(response => { this.sneakers = response.sneakers; });
   }
 
 }
